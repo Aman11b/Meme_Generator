@@ -3,10 +3,19 @@ import { useState } from "react"
 export default function Main(){
     const [meme, setMeme] =useState({
         topText:'One does not simply',
-        bottomText:'walk into Kindslanding',
+        bottomText:'want into Kindslanding',
         imageUrl:'http://i.imgflip.com/1bij.jpg'
     })
 
+    function handleChange(event){
+        const {value,name}=event.currentTarget 
+        setMeme(prevMene=>({
+            ...prevMene,
+            // topText: value,
+            // bottomText: value error use name value to specify which value you want to update
+            [name]:value
+        }))
+    }
 
     return(
         <main>
@@ -16,6 +25,8 @@ export default function Main(){
                         type="text"
                         placeholder="One does not simply"
                         name="topText"
+                        onChange={handleChange}
+                        value={meme.topText}
                     />
                 </label>
                 <label>Bottom Text 
@@ -23,6 +34,8 @@ export default function Main(){
                         type="text"
                         placeholder="walk into Mordor"
                         name="bottomText"
+                        onChange={handleChange}
+                        value={meme.bottomText}
                     />
                 </label>
                 <button>Get a new meme Image 🖼</button>
