@@ -6,8 +6,10 @@ A fun Meme Generator built with **React**! This app lets you enter **top and bot
 
 Here are some memes generated using the app:  
 
-![Meme Preview 1](./preview1.png)  
-![Meme Preview 2](./preview2.png)  
+<div align="center">
+  <img src="./preview1.png" alt="Meme Preview 1" width="45%"/>
+  <img src="./preview2.png" alt="Meme Preview 2" width="45%"/>
+</div>  
 
 ## 🎓 What I Learned  
 
