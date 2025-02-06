@@ -3,7 +3,7 @@ import { useState, useEffect} from "react"
 export default function Main(){
     const [meme, setMeme] =useState({
         topText:'One does not simply',
-        bottomText:'goes into Kindslanding',
+        bottomText:'goes into Kingslanding',
         imageUrl:'http://i.imgflip.com/1bij.jpg'
     })
 
