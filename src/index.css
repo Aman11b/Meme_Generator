@@ -17,11 +17,15 @@ main{
 /* header */
 .header{
   display: flex;
+  justify-items: center;
   align-items: center;
-  height: 65px;
+  height: 75px;
   background:linear-gradient(90deg,#1eb2d0 1.18%,#a626d3 100%);
   color:  white;
-  padding: 20px;
+  padding:20px;
+
+
+  text-align: center;
 }
 .header >img{
   height: 100%;
@@ -29,7 +33,7 @@ main{
 }
 .header >h1{
   font-size: 1.95rem;
-  margin-right: auto;
+  margin-right:auto;
 }
 
 /* form */
