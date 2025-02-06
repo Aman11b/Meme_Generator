@@ -20,7 +20,7 @@ Here are some memes generated using the app:
 
 ## 💡 Acknowledgments  
 
-A **huge thanks to me** (because who else wants to learn web dev? haha 😆) and of course to **Scrimba** & **Bob Ziroll** for the amazing guidance!  
+A **huge thanks to me** (who wants to learn web dev😆) and of course to **Scrimba** & **Bob Ziroll** for the amazing guidance!  
 
 ---
 
